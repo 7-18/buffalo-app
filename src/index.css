@@ -1,0 +1,35 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+
+:root {
+  /* bg */
+  --bg-color: #1f233e;
+
+  /* text */
+  --white: #fff;
+  --gray: #9c9c9c;
+
+  /* border */
+  --optional-secondary-color: #2be7e8;
+
+  /* shadow or secondary-bg */
+  --add-shade-color: #2e3562;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--white);
+  font-family: "Raleway", sans-serif;
+  letter-spacing: -0.3px;
+}
+
+a {
+  text-decoration: none;
+}
